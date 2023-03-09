@@ -1,30 +1,72 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&family=Tilt+Prism&display=swap');
+* {
     background-color: rgb(2, 2, 32);
     text-align: center;
-color: white;
+    color: white;
 }
-.menu{
+h1{
+    font-family: 'Shantell Sans', cursive;
+font-family: 'Tilt Prism', cursive;
+}
+a{
+    font-family: 'Shantell Sans', cursive;
+font-family: 'Tilt Prism', cursive;
+}
+
+.menu {
     width: 100%;
     height: 50px;
     text-align: end;
     display: flex;
-    justify-content:end;
+    justify-content: end;
 }
-.menu > a{
+
+.menu>a {
     margin-right: 30px;
     font-size: 20px;
     color: white;
-    
+
 }
-img{
+
+img {
     width: 50px;
     height: 50px;
 }
-#experienciaM{
+
+#experienciaM {
     color: white;
 }
-#experienciaM > p{
+
+#experienciaM>p {
     text-align: left;
-   
+
     margin-left: 200px;
+}
+
+.cabo>img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.medio {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.logos>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 500;
+    margin-right: 45px
+}
+
+#habilidadesM {
+    margin: 0 auto;
+    width: 50%;
+}
+.big1, .big2{
+    display: flex;
+    justify-content: space-around;
 }
